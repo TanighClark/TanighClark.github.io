@@ -20,6 +20,18 @@ body {
 h1, h2, h3 {
     font-family: 'Merriweather', serif;
 }
+.hero {
+    background-image: url('images/hero-bg.png'); /* Path to your hero image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* or set a specific height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white; /* Ensuring text is visible on dark background */
+}
+
 
 /* Header */
 header {
