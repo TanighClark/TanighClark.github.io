@@ -21,7 +21,7 @@ h1, h2, h3 {
     font-family: 'Merriweather', serif;
 }
 .hero {
-    background-image: url('images/her0.png'); /* Path to your hero image */
+    background-image: url('../images/her0.png'); /* Ensure the path correctly points to where your image is stored */
     background-size: cover;
     background-position: center;
     height: 100vh; /* or set a specific height */
@@ -29,8 +29,9 @@ h1, h2, h3 {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: white; /* Ensuring text is visible on dark background */
+    color: white; /* This ensures that the text is visible on the dark background of the image */
 }
+
 .hero h1, .hero p {
     text-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
