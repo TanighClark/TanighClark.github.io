@@ -31,6 +31,10 @@ h1, h2, h3 {
     text-align: center;
     color: white; /* Ensuring text is visible on dark background */
 }
+.hero h1, .hero p {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
 
 
 /* Header */
